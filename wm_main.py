@@ -4,7 +4,6 @@ import sys
 from wm_func import *
 from wm_DB import *
 from wm_plot import *
-from wm_plot2 import *
 
 def main():
 
