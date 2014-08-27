@@ -23,7 +23,7 @@ def main():
   for i in xrange(daymax-daymin+1):
     dates.append(str("%02d" % (daymin + i))+month+year)
     
-# creates dictionary with keywords and scores:
+# creates dictionary with keywords and scores (file from http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010):
   dictwordsc = F_getdictafinn("AFINN-111.txt")
 
 # connects to database
