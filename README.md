@@ -11,9 +11,10 @@ These python scripts do a **simple** analysis of the headlines of some online jo
 
 - wm_plot    :    Interactive plot of the results with bokeh.
 
-and:
+and also:
 
-- wm_main_onlyplot.py:  Useful to just execute the plot (with a simpler example dataframe)
+- wm_main_plotall.py    :  Useful to just plot all that is already in the database
+- wm_main_plotsample.py :  Plots a sample dataframe, to test the plotting commands with no need of databases nor htmls
 
 
 
