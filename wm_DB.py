@@ -1,11 +1,12 @@
 #!/usr/bin/python
 
+import sys
 import MySQLdb as mdb
 import pandas.io.sql as psql
 
 def F_conDB(dbname):
   try: 
-    con = mdb.connect('localhost', 'wmuser', '--removed--', dbname);
+    con = mdb.connect('localhost', 'user--removed4github', 'password--removed4github', dbname);
     cur = con.cursor()
   except mdb.Error, e:
     print "Error %d: %s" % (e.args[0],e.args[1])
