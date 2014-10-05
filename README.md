@@ -13,6 +13,8 @@ Check the results at: http://themoodoftheworld.weebly.com
 
 - wm_plot    :    Interactive plot of the results with bokeh.
 
+- journalsinfo.csv : With the name, web and area of each news website analysed.
+
 and also:
 
 - wm_main_plotall.py    :  Useful to just plot all that is already in the database
