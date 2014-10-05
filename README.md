@@ -1,7 +1,7 @@
 worldmood
 =========
 
-These python scripts do a **simple** analysis of the headlines of some online journals (regex), attribute a score (with the word list afinn [1]), deal with the data (mysql and pandas) and plot the results (bokeh).
+These python scripts do a **simple** analysis of the headlines of some news websites (regex), attribute a score (with the word list afinn [1]), deal with the data (mysql and pandas) and plot the results (bokeh).
 
 Check the results at: http://themoodoftheworld.weebly.com
 
